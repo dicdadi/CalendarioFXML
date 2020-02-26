@@ -1,0 +1,44 @@
+.root {
+	-fx-font-family: "Courier New";
+	-fx-font-size: 11.0pt;
+	-fx-background-color: white;
+}
+
+.button:hover {
+	-fx-effect: dropshadow(gaussian, black, 10.0, 0.2, 2.0, 2.0)
+}
+
+.nameMonth  {
+	-fx-font-size: 13.0pt;
+	-fx-font-weight: bolder;
+}
+
+.year {
+	-fx-font-family: Arial;
+	-fx-font-size: 22.0pt;
+	-fx-font-weight: bolder;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, black, 10.0, 0.2, 2.0, 2.0)
+}
+
+.diasSemana  {
+	-fx-font-weight: bolder;
+}
+
+.domingo  {
+	-fx-text-fill: red;
+}
+
+.day  {
+	-fx-font-style: italic;
+}
+
+.today {
+	-fx-background-color: linear-gradient(to bottom right, white, orange);
+	-fx-background-radius: 10px;
+	-fx-border-style: dashed;
+	-fx-border-radius: 10px;
+	-fx-font-weight: bolder;
+	-fx-text-fill: black;
+	
+}
